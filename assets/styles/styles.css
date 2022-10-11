@@ -1,0 +1,67 @@
+header > h1 {
+  color: #ffffff;
+  background: rgb(59, 110, 196);
+  text-align: center;
+  background: linear-grdient(90deg, rgba(59, 110, 196, 1) 0%, rgba(34, 3, 84, 1) 100%);
+}
+
+main {
+  padding-top: 1vh;
+}
+
+main h1 {
+  font-weight: bold;
+}
+
+.card {
+  background-color: #2d3e50;
+}
+
+#form button,
+#form input {
+  font-size: 1.25em;
+}
+
+#prevSearches {
+  border-top: 1px solid;
+}
+
+#prevSearches button {
+  border: none;
+  font-size: 1.25em;
+  background-color: #a1a1a1;
+  color: #000000;
+}
+
+#prevSearches button:hover {
+  background-color: #797979;
+}
+
+#container p {
+  font-size: larger;
+  font-weight: 600;
+}
+
+#weather-icon {
+  background: grey;
+  border-radius: 3rem;
+}
+
+#currentUV {
+  color: #ffffff;
+  padding: 0 10px 0 10px;
+  border-radius: .5rem;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#container div {
+  color: #ffffff;
+  min-width: 20%;
+  padding-left: .5em;
+  font-weight: 600;
+  font-size: 1.25em;
+}
